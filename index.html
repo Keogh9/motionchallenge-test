@@ -19,7 +19,7 @@
     const { useState } = React;
 
     // ===========================
-    // 9 Motion-Challenge Puzzles
+    // 8 Motion-Challenge Puzzles
     // ===========================
     const puzzles = [
       // 1) Very simple
@@ -125,21 +125,6 @@
           { id: 'b4',   type: 'block', x: 3, y: 0, w: 1, h: 2, color: 'purple',  movable: true  },
           { id: 'b5',   type: 'block', x: 4, y: 3, w: 1, h: 1, color: 'pink',    movable: false },
           { id: 'b6',   type: 'block', x: 0, y: 2, w: 1, h: 2, color: 'orange',  movable: true  },
-        ],
-      },
-
-        // 09) Dual walls + interleaved movers
-      {
-        grid: { rows: 5, cols: 5 },
-        exit: { x: 4, y: 4 },
-        blocks: [
-          { id: 'ball', type: 'ball', x: 0, y: 4, w: 1, h: 1, color: 'red',     movable: true  },
-          { id: 'b1',   type: 'block', x: 0, y: 3, w: 3, h: 1, color: 'gray',    movable: false },
-          { id: 'b2',   type: 'block', x: 3, y: 0, w: 1, h: 3, color: 'orange',  movable: true },
-          { id: 'b3',   type: 'block', x: 2, y: 2, w: 2, h: 1, color: 'skyblue', movable: true  },
-          { id: 'b4',   type: 'block', x: 1, y: 0, w: 1, h: 2, color: 'purple',  movable: true  },
-          { id: 'b5',   type: 'block', x: 1, y: 4, w: 3, h: 1, color: 'green',   movable: true  },
-          { id: 'b6',   type: 'block', x: 4, y: 1, w: 1, h: 1, color: 'pink',    movable: false },
         ],
       },
     ];
