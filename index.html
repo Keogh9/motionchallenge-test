@@ -19,7 +19,7 @@
     const { useState } = React;
 
     // ===========================
-    // 10 Motion-Challenge Puzzles
+    // 9 Motion-Challenge Puzzles
     // ===========================
     const puzzles = [
       // 1) Very simple
@@ -128,22 +128,7 @@
         ],
       },
 
-      // 9) Crossed fixed walls + staggered movers
-      {
-        grid: { rows: 5, cols: 5 },
-        exit: { x: 4, y: 2 },
-        blocks: [
-          { id: 'ball', type: 'ball', x: 0, y: 4, w: 1, h: 1, color: 'red',     movable: true  },
-          { id: 'b1',   type: 'block', x: 2, y: 1, w: 1, h: 3, color: 'gray',    movable: false },
-          { id: 'b2',   type: 'block', x: 1, y: 2, w: 3, h: 1, color: 'gray',    movable: false },
-          { id: 'b3',   type: 'block', x: 0, y: 0, w: 1, h: 2, color: 'skyblue', movable: true  },
-          { id: 'b4',   type: 'block', x: 3, y: 4, w: 2, h: 1, color: 'green',   movable: true  },
-          { id: 'b5',   type: 'block', x: 4, y: 3, w: 1, h: 2, color: 'pink',    movable: true  },
-          { id: 'b6',   type: 'block', x: 1, y: 4, w: 2, h: 1, color: 'purple',  movable: true  },
-        ],
-      },
-
-      // 10) Dual walls + interleaved movers
+        // 09) Dual walls + interleaved movers
       {
         grid: { rows: 5, cols: 5 },
         exit: { x: 4, y: 4 },
